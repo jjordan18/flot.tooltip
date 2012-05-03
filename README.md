@@ -13,8 +13,8 @@ See the `example.html` and `example_series.html` files and source code of plugin
 
 ### What's new in v0.4.4? ###
 
--	add support for percentage, for pie/stacked chart. Such as "%p" or "%p.2"
--	add regex for label, labels in tooltips can be modified using regular expression
+-	add support for percentage, for pie/stacked chart. Such as `%p` or with precision `%p.2`
+-	add `labelRegex` option for label, labels in tooltips can be modified using regular expression. e.g. `/([a-zA-Z])/i`
 
 ### v0.4.3? ###
 
