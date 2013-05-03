@@ -116,7 +116,9 @@
         });
 		
 		var stringFormat = function(content, item, fnct) {
-		
+			if (item.series.tooltipOpts && item.series.tooltipOpts.content){
+				content = item.series.tooltipOpts.content;
+			}
 			var seriesPattern = /%s/;
 			var xPattern = /%x\.{0,1}(\d{0,})/;
 			var yPattern = /%y\.{0,1}(\d{0,})/;
